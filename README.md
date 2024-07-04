@@ -47,15 +47,3 @@ Este projeto consiste em um sistema de login básico onde os usuários podem faz
     ```
 
 2. Abra o navegador e acesse `http://localhost:3000`.
-
-## Estrutura de Diretórios
-```
-sistema-de-login/
-│
-├── app.js
-├── router.js
-├── package.json
-└── views/
-	├── index.ejs
-	└── logado.ejs
-```
