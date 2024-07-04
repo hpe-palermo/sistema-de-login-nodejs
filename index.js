@@ -2,7 +2,6 @@
 
 import express from "express";
 import router from "./router.js";
-import path from "path";
 import bodyParser from "body-parser";
 import session from "express-session";
 
@@ -15,11 +14,6 @@ app.set('views', "./views");
 
 // Use the router for all routes starting with '/'
 app.use('/', router);
-
-// Define a basic route for the homepage
-app.get('/', (req, res) => {
-    res.sendFile('index');
-});
 
 // Start the server on port 3000
 app.listen(3000, () => {
